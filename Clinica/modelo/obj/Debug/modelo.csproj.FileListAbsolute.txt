@@ -1,0 +1,12 @@
+C:\Users\jesus\source\repos\Clinica\modelo\bin\Debug\modelo.dll
+C:\Users\jesus\source\repos\Clinica\modelo\bin\Debug\modelo.pdb
+C:\Users\jesus\source\repos\Clinica\modelo\obj\Debug\modelo.csproj.AssemblyReference.cache
+C:\Users\jesus\source\repos\Clinica\modelo\obj\Debug\modelo.csproj.CoreCompileInputs.cache
+C:\Users\jesus\source\repos\Clinica\modelo\obj\Debug\modelo.dll
+C:\Users\jesus\source\repos\Clinica\modelo\obj\Debug\modelo.pdb
+C:\Users\jesus\Desktop\Clinica\modelo\bin\Debug\modelo.dll
+C:\Users\jesus\Desktop\Clinica\modelo\bin\Debug\modelo.pdb
+C:\Users\jesus\Desktop\Clinica\modelo\obj\Debug\modelo.csproj.AssemblyReference.cache
+C:\Users\jesus\Desktop\Clinica\modelo\obj\Debug\modelo.csproj.CoreCompileInputs.cache
+C:\Users\jesus\Desktop\Clinica\modelo\obj\Debug\modelo.dll
+C:\Users\jesus\Desktop\Clinica\modelo\obj\Debug\modelo.pdb

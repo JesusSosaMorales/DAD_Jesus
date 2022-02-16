@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+"http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<book>
+  <bookinfo>
+    <title>MANUAL DE USUARIO TIENDA</title>
+
+    <author>
+      <firstname>Jesus Manuel Sosa Morales</firstname>
+
+      <surname/>
+
+      <affiliation>
+        <orgname/>
+      </affiliation>
+    </author>
+
+    <pubdate>13/02/2022</pubdate>
+  </bookinfo>
+
+  <chapter>
+    <title>Introducción</title>
+
+    <section>
+      <title>Descripción</title>
+
+      <para>Este documento proporciona los detalles y requerimientos para el
+      uso correcto de la aplicación TIENDA, esto con la finalidad de brindar
+      al usuario una herramienta que asegure el uso correcto de la
+      aplicación.</para>
+    </section>
+
+    <section>
+      <title>Introducción app</title>
+
+      <para>La app que vamos a documentar en este documento trata de una
+      aplicación que consta de un logeo para acceder a una tienda en la cual
+      podemos hacer pedidos de los productos que queramos.</para>
+    </section>
+  </chapter>
+
+  <chapter>
+    <title>Acceder a la App</title>
+
+    <section>
+      <title>Login</title>
+
+      <para>Lo primero que veremos al entrar a la aplicación es el login aquí
+      tendremos que poner nuestras credenciales. El login tiene el siguiente
+      aspecto:</para>
+
+      <para><inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="../Downloads/imgDocBook/login.PNG"/>
+          </imageobject>
+        </inlinemediaobject></para>
+    </section>
+
+    <section>
+      <title>Errores Ventanas</title>
+
+      <para>Tenemos que introducir dos datos nuestro usuario y contraseña de
+      acceso, tenemos un boton que al hacer click entraremos en la app, si las
+      credenciales son incorrectas saldra un mensaje de aviso:</para>
+
+      <section>
+        <title>Error de credenciales</title>
+
+        <para>Si el error es de credenciales se mostrara el siguiente
+        mensaje:</para>
+
+        <para><inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="../Downloads/imgDocBook/login_incorrecto.PNG"/>
+            </imageobject>
+          </inlinemediaobject></para>
+      </section>
+
+      <section>
+        <title>Error de campos vacios</title>
+
+        <para>En caso de que el error sea que hemos dejado algun campo o ambos
+        sin rellenar el mensaje seria: LR</para>
+
+        <para><inlinemediaobject>
+            <imageobject>
+              <imagedata fileref="../Downloads/imgDocBook/login_vacio.PNG"/>
+            </imageobject>
+          </inlinemediaobject></para>
+      </section>
+    </section>
+
+    <section>
+      <title>Login correcto</title>
+
+      <para>Si introducimos unas credenciales correcta la aplicacion nos
+      llevara a la siguiente pantalla que analizaremos a continuación.</para>
+
+      <para/>
+    </section>
+  </chapter>
+
+  <chapter>
+    <title>Funcionalidad</title>
+
+    <para>Esta aplicacion tiene vario roles, el rol básico y el rol
+    administrador.</para>
+
+    <para>Una vez que la validación sea positiva, les aparece el formulario,
+    que encontrará más abajo, con las categorías de la ropa que tienen en
+    tienda.</para>
+
+    <para><inlinemediaobject>
+        <imageobject>
+          <imagedata contentwidth="375"
+                     fileref="../Downloads/imgDocBook/main.PNG"/>
+        </imageobject>
+      </inlinemediaobject></para>
+
+    <para/>
+
+    <section>
+      <title>Menu Principal Catálogo </title>
+
+      <para>Este formulario tiene una serie de botones. De todos estos botones
+      lo único que funcionará será el de Man.</para>
+    </section>
+
+    <section>
+      <title>Catálogo Man</title>
+
+      <para>Aparece un formulario como el siguiente en el que podemos observar
+      la informacion del catálogo MAN con la información de los elementos
+      (Precio,Cantidad,Nombre...)</para>
+
+      <para>Salen todos los registros de la tabla catman en una tabla. No se
+      puede escribir en la tabla. Fíjese que salen cabeceras en lo más
+      alto.</para>
+
+      <para>A continuación podemos ver un ejemplo:</para>
+
+      <para><inlinemediaobject>
+          <imageobject>
+            <imagedata fileref="../Downloads/imgDocBook/categoria_man.PNG"/>
+          </imageobject>
+        </inlinemediaobject></para>
+
+      <para/>
+
+      <section>
+        <title>Funcionalidad del menu categoria MAN</title>
+
+        <para>Este menu dispone de varias funcionalidades, podemos filtrar,
+        agregar, y ver informacion acerca del evento</para>
+
+        <section>
+          <title>Filter</title>
+
+          <para>Podemos filtrar por los diferentes tipos de ropa de la
+          categoría man seleccionando del lista de la izquierda y haciendo
+          clic en el botón Filter. ALL significa volver a tener todos los
+          registros de la tabla catman.</para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="../Downloads/imgDocBook/filter.PNG"/>
+              </imageobject>
+            </inlinemediaobject></para>
+
+          <para>Ejemplo de filtro por T-Shirt</para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="../Downloads/imgDocBook/filtertshirt.PNG"/>
+              </imageobject>
+            </inlinemediaobject></para>
+        </section>
+
+        <section>
+          <title>Add</title>
+
+          <para> Al pulsar add aparece un formulario que pide la cantidad que
+          quieres del ítem seleccionado, una vez escrita la cantidad se
+          comprueba si tenemos tantos ítems como los seleccionados en caso de
+          que no haya un dicha cantidad se informa al usuario por pantalla.
+          </para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="../Downloads/imgDocBook/formularioadd.PNG"/>
+              </imageobject>
+            </inlinemediaobject></para>
+
+          <para>Como mencione anteriormente, en caso que se indique una
+          cantidad mayor de la que hay se muestra lo siguiente:</para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="../Downloads/imgDocBook/formularioadderror.PNG"/>
+              </imageobject>
+            </inlinemediaobject></para>
+        </section>
+
+        <section>
+          <title>View</title>
+
+          <para>Cuando selecciono View se muestra un pequeño dialogo que
+          dentro tendrá la información de la fila seleccionada en el
+          tabla.</para>
+
+          <para><inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="../Downloads/imgDocBook/viewform.PNG"/>
+              </imageobject>
+            </inlinemediaobject>Concl</para>
+        </section>
+      </section>
+    </section>
+  </chapter>
+
+  <chapter>
+    <title>Conclusion</title>
+
+    <para>La aplicación que aquí se documenta, es una aplicación bastante
+    sencilla de utilizar y gracias a este manual la tareas y funcionalidades
+    de la app quedan explicadas y aclaradas.</para>
+
+    <para/>
+  </chapter>
+</book>
